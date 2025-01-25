@@ -332,6 +332,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-items: space-between;
   gap: 8px;
   inline-size: clamp(19.125rem, 8.923vw + 17.034rem, 20.938rem);
   margin-block-start: 52px;
@@ -341,26 +342,20 @@
   text-wrap: no-wrap;
 }
 
-.diskette {
-  mix-blend-mode: difference;
-}
-
 .diskette-button {
-  width: 28px;
-  height: 28px;
-}
-
-.button__text {
-  text-wrap: no-wrap;
+  inline-size: 28px;
+  block-size: 28px;
+  mix-blend-mode: difference;
 }
 
 .dialog[open] {
   position: fixed;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 2.1em;
   inline-size: min(91%, 353px);
-  padding: 30px 42px;
+  padding-block: 30px;
 }
 
 dialog::backdrop {
@@ -371,12 +366,14 @@ dialog::backdrop {
   display: flex;
   gap: 20px;
   align-items: center;
+  inline-size: clamp(16.063rem, 11.077vw + 13.466rem, 18.313rem);
 }
 
 .diskette-dialog {
-  width: 39px;
-  height: 39px;
+  inline-size: 39px;
+  block-size: 39px;
   flex-shrink: 0;
+  mix-blend-mode: difference;
 }
 
 .dialog-text {
@@ -388,6 +385,7 @@ dialog::backdrop {
 .dialog-button {
   block-size: 38px;
   text-transform: uppercase;
+  inline-size: clamp(16.063rem, 11.077vw + 13.466rem, 18.313rem);
 }
 
 @media (width <= 375px) {
@@ -406,7 +404,7 @@ dialog::backdrop {
   }
 
   .diskette-button {
-    width: 21px;
-    height: 21px;
+    inline-size: 21px;
+    block-size: 21px;
   }
 }
