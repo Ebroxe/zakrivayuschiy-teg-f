@@ -63,7 +63,7 @@
 }
 
 .card {
-  background-color: var(--bg-color,#fff);;
+  background-color: var(--bg-color,#fff);
   font-size: 18px;
 }
 
@@ -237,12 +237,12 @@
   transition: fill 0.3s;
 }
 
-.like-icon.is-liked .main-body{
+.like-icon.is-liked .main-body {
   fill: var(--bright-heart-color);
   transition: fill 0.3s 0.05s;
 }
 
-.like-icon.is-liked .contour{
+.like-icon.is-liked .contour {
   fill: var(--bright-heart-color);
   transition: fill 0.3s 0.06s;
 }
