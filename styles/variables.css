@@ -6,7 +6,7 @@
 --title-weight: 700;
 --header-width: 100%;
 --header-block-padding: clamp(7.5rem, 2.462vw + 6.923rem, 8rem);
---stroke-color: #fff;
+--stroke-color: rgb(255, 255, 255);
 --bg-color: #fff;
 --bg-image: repeating-linear-gradient(90deg, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
             repeating-linear-gradient(0deg, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
