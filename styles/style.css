@@ -80,16 +80,15 @@
   position: relative;
   object-fit: cover;
   object-position: center;
-  aspect-ratio: 1.01 / 1;
   border-left: 2px solid #000;
   border-right: 2px solid #000;
-  display: block;
   inline-size: 100%;
 }
 
 .illustration {
-  width: 100%;
   display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
 }
 
 .gray {
